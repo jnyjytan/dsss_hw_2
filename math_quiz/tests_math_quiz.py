@@ -27,10 +27,9 @@ class TestMathGame(unittest.TestCase):
             ]
 
             for num1, num2, operator, expected_problem, expected_answer in test_cases:
-                
-                    pass
 
                     printed, result = plus_minus_multiplication(num1,num2,operator)
+                    self.assertEqual(expected_problem, printed)
                     self.assertEqual(result, expected_answer)
 
         
