@@ -3,9 +3,6 @@ from math_quiz import get_random_integer, get_random_math_symbol, plus_minus_mul
 
 
 class TestMathGame(unittest.TestCase):
-    
-    def are_elements_string(elements):
-        return all(isinstance(element, str) for element in elements)
 
     def test_get_random_integer(self):
         # Test if random numbers generated are within the specified range
