@@ -7,5 +7,5 @@ setup(
     author="DSSS",
     author_email="jieyi.tan@fau.de",
     packages=find_packages(),
-    install_requires=[]
+    install_requires=[],
 )
